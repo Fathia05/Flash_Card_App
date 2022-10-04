@@ -56,4 +56,12 @@
         android:text="Ayomide Olasupo"
         android:textSize="30sp"
         android:layout_below="@id/flashcard_answer2" />
+
+    <ImageView
+        android:id="@+id/myAddBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_flashcard_add" />
 </RelativeLayout>

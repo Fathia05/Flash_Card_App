@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <ImageView
+        android:id="@+id/myCancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-238dp"
+        android:layout_marginBottom="-10dp"
+        app:srcCompat="@drawable/ic_flashcard_cancel" />
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Type in the question here."
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Type in the answer here."
+        android:inputType="textMultiLine"
+        android:layout_below="@id/question"/>
+
+    <ImageView
+        android:id="@+id/mySaveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toLeftOf="@drawable/ic_flashcard_cancel"
+        app:srcCompat="@drawable/ic_flashcard_save" />
+
+</RelativeLayout>
