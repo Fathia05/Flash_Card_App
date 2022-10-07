@@ -11,7 +11,7 @@ An enhancement of the previously created flashcard app by adding new features.
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
 - [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
 - [x] User can enter and submit a Question and Answer through the 'Add Card Screen'
-- [ ] User will see the card they just created on the main screen when they press the 'Save Button'
+- [x] User will see the card they just created on the main screen when they press the 'Save Button'
 - [x] Push your progress to GitHub!
 
 ## Optional
@@ -30,7 +30,7 @@ A simple flashcard app.
 
 ### App Walk-through
 
-<img src="http://g.recordit.co/4UziAU8OLX.gif" width=200><br>
+<img src="http://g.recordit.co/npGVNzb6O4.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
