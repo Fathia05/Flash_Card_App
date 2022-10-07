@@ -5,7 +5,7 @@ An enhancement of the previously created flashcard app by adding new features.
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/wa5s3H1unx.gif" width=200><br>
+<img src="http://g.recordit.co/npGVNzb6O4.gif" width=200><br>
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
